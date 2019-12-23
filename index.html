@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Jobeye</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-ul">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Find jobs<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Company Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Find Salaries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Find Resumes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Employers/Post Job</a>
+        </li>
+
+      </ul>
+      <ul class="navbar-nav nav-ul form-inline my-2 my-lg-0">
+        <li class="nav-item " >
+          <a class="nav-link" href="#">Upload Resumes<i class="fa fa-upload" aria-hidden="true"></i></a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link " href="#"><b>Evangeline Kelly</b><img class="img" src="p0.jpg"></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+</div>
+  <div class="container-fluid">
+    <div class="row top-row">
+      <button class="circle-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      <div class="input-group md-form form-sm form-1 pl-0 search">
+        <div class="input-group-prepend">
+          <span class="input-group-text search-icon" id="basic-text1"><i class="fa fa-search text-white"
+              aria-hidden="true"></i></span>
+        </div>
+        <input class="form-control my-0 py-1 search-placeholder" type="text" placeholder="Find Jobs,keywords,company"
+          aria-label="Search">
+      </div>
+      <div class="input-group md-form form-sm form-1 pl-0 search">
+        <div class="input-group-prepend">
+          <span class="input-group-text search-icon" id="basic-text1"><i class="fa fa-map-marker" style="color: white"
+              aria-hidden="true"></i> All Location</span>
+        </div>
+        <input class="form-control my-0 py-1 search-placeholder" type="text" placeholder="City,state"
+          aria-label="Search"> <button class="circle-btn1"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></button>
+      </div>
+      <button class="find-job">Find Jobs</button>
+      <p style="color: white">Advance Search</p>
+    </div>
+    <div class="row main">
+      <div class="col-md-2">
+        <span class="heading">Sort by:</span><span class="relevance-date">Relevance-date</span>
+        <p class="heading">Distance:</p>
+        <select class="select">
+          <option value="volvo">Within 50 kilometers</option>
+          <option value="saab">within 20 km</option>
+        </select>
+        <p class="heading">Salary Estimate:</p>
+        <ul class="left-col-ul">
+          <li>
+            <span>$70000</span><span style="float: right">(7421)</span>
+          </li>
+          <li>
+            <span>$80000</span><span style="float: right">(421)</span>
+          </li>
+          <li>
+            <span>$90000</span><span style="float: right">(721)</span>
+          </li>
+          <li>
+            <span>$160000</span><span style="float: right">(7721)</span>
+          </li>
+          <li>
+            <span>$930000</span><span style="float: right">(7821)</span>
+          </li>
+        </ul>
+        <p class="heading">Job Type:</p>
+        <ul class="left-col-ul">
+          <li>
+            <span>Full-time</span><span style="float: right">(7421)</span>
+          </li>
+          <li>
+            <span>permanent</span><span style="float: right">(421)</span>
+          </li>
+          <li>
+            <span>part-time</span><span style="float: right">(721)</span>
+          </li>
+          <li>
+            <span>contract</span><span style="float: right">(7721)</span>
+          </li>
+          <li>
+            <span>temporary</span><span style="float: right">(7821)</span>
+          </li>
+        </ul>
+        <button class="circle-btn2"><i class="fa fa-plus" aria-hidden="true"></i></button><span class="more"> More >></span>
+        <p class="heading">Location:</p>
+        <ul class="location left-col-ul">
+          <li>
+            <span>Sydney</span><span style="float: right">(7421)</span>
+          </li>
+          <li>
+            <span>Sydney Western</span><span style="float: right">(421)</span>
+          </li>
+          <li>
+            <span>Paramatta NSW</span><span style="float: right">(721)</span>
+          </li>
+          <li>
+            <span>North Sydney NSW</span><span style="float: right">(7721)</span>
+          </li>
+          <li>
+            <span>Northern Beaches </span><span style="float: right">(7821)</span>
+          </li>
+        </ul>
+        <button class="circle-btn2"><i class="fa fa-plus" aria-hidden="true"></i></button><span class="more"> More >></span>
+        <p class="heading">Title:</p>
+        <ul class="left-col-ul">
+          <li>
+            <span>Project Manager</span><span style="float: right">(7421)</span>
+          </li>
+          <li>
+            <span>Marketing </span><span style="float: right">(421)</span>
+          </li>
+          <li>
+            <span>Business Analyst</span><span style="float: right">(721)</span>
+          </li>
+          <li>
+            <span>Sr UX Designer</span><span style="float: right">(7721)</span>
+          </li>
+          <li>
+            <span>Product Designer</span><span style="float: right">(7821)</span>
+          </li>
+        </ul>
+        <button class="circle-btn2"><i class="fa fa-plus" aria-hidden="true"></i></button><span class="more"> More >></span>
+      </div>
+
+      <div class="col-md-6 job-column">
+        <span class="heading blue">Upload your resume: </span><span class="heading">Let employers find you</span><br><i
+          class="fa fa-list blue icon" style="float: right" aria-hidden="true"></i> <i class="fa fa-th icon"
+          style="float: right" aria-hidden="true"></i>
+        <span>Show: all jobs-</span><span class="blue">153 new jobs</span>
+        <ul class="ul-middle">
+         
+          <li class="li-middle">
+            <div class="row">
+                <div class="col-md-1">
+                    <img class="circle-btn3" src="google.jpg">
+                </div>
+                <div class="col-md-10">
+                    <div class="job-title">
+                    <p>User Experience Design Interns- summer 2019</p>
+                    <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                  </div>
+                </div>
+                <div class="col-md-1 btn-ellipsis">
+                    <i class="fa fa-ellipsis-h"
+                    aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="row job-description">
+              <div class="col-md-2 job-description-icons">
+                  <i class="fa fa-file" aria-hidden="true"></i>
+                  <i class="fa fa-paperclip" aria-hidden="true"></i>
+              </div>
+              <div class="col-md-4 posted-by">
+                  <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                <div class="row "> 
+                    <div class="col-md-2">
+                        <img class="img1" src="p0.jpg">
+                    </div>
+                    <div class="col-md-10 contact ">
+                        <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                        <span>sarahkleiz@gmail.com</span>    
+                    </div>                  
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <p><span class="gray">Seniority Level: </span>Internship</p>
+                  <p><span class="gray">Industry: </span>IT Services</p>
+                  <p><span class="gray">Employment Type: </span>Full-time</p>
+              </div>
+              <div class="col-md-2">
+                <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </li>
+          <li class="li-middle1">
+              <div class="row">
+                  <div class="col-md-1">
+                      <img class="circle-btn3" src="google.jpg">
+                  </div>
+                  <div class="col-md-10">
+                      <div class="job-title">
+                      <p>User Experience Design Interns- summer 2019</p>
+                      <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                    </div>
+                  </div>
+                  <div class="col-md-1 btn-ellipsis">
+                      <i class="fa fa-ellipsis-h"
+                      aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row job-description">
+                <div class="col-md-2 job-description-icons">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 posted-by">
+                    <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                  <div class="row "> 
+                      <div class="col-md-2">
+                          <img class="img1" src="p0.jpg">
+                      </div>
+                      <div class="col-md-10 contact ">
+                          <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                          <span>sarahkleiz@gmail.com</span>    
+                      </div>                  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="gray">Seniority Level: </span>Internship</p>
+                    <p><span class="gray">Industry: </span>IT Services</p>
+                    <p><span class="gray">Employment Type: </span>Full-time</p>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                  <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+          </li>
+          <li class="li-middle1">
+              <div class="row">
+                  <div class="col-md-1">
+                      <img class="circle-btn3" src="google.jpg">
+                  </div>
+                  <div class="col-md-10">
+                      <div class="job-title">
+                      <p>User Experience Design Interns- summer 2019</p>
+                      <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                    </div>
+                  </div>
+                  <div class="col-md-1 btn-ellipsis">
+                      <i class="fa fa-ellipsis-h"
+                      aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row job-description">
+                <div class="col-md-2 job-description-icons">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 posted-by">
+                    <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                  <div class="row "> 
+                      <div class="col-md-2">
+                          <img class="img1" src="p0.jpg">
+                      </div>
+                      <div class="col-md-10 contact ">
+                          <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                          <span>sarahkleiz@gmail.com</span>    
+                      </div>                  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="gray">Seniority Level: </span>Internship</p>
+                    <p><span class="gray">Industry: </span>IT Services</p>
+                    <p><span class="gray">Employment Type: </span>Full-time</p>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                  <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+          </li>
+          <li class="li-middle1">
+              <div class="row">
+                  <div class="col-md-1">
+                      <img class="circle-btn3" src="google.jpg">
+                  </div>
+                  <div class="col-md-10">
+                      <div class="job-title">
+                      <p>User Experience Design Interns- summer 2019</p>
+                      <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                    </div>
+                  </div>
+                  <div class="col-md-1 btn-ellipsis">
+                      <i class="fa fa-ellipsis-h"
+                      aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row job-description">
+                <div class="col-md-2 job-description-icons">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 posted-by">
+                    <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                  <div class="row "> 
+                      <div class="col-md-2">
+                          <img class="img1" src="p0.jpg">
+                      </div>
+                      <div class="col-md-10 contact ">
+                          <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                          <span>sarahkleiz@gmail.com</span>    
+                      </div>                  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="gray">Seniority Level: </span>Internship</p>
+                    <p><span class="gray">Industry: </span>IT Services</p>
+                    <p><span class="gray">Employment Type: </span>Full-time</p>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                  <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+          </li>
+          <li class="li-middle1">
+              <div class="row">
+                  <div class="col-md-1">
+                      <img class="circle-btn3" src="google.jpg">
+                  </div>
+                  <div class="col-md-10">
+                      <div class="job-title">
+                      <p>User Experience Design Interns- summer 2019</p>
+                      <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                    </div>
+                  </div>
+                  <div class="col-md-1 btn-ellipsis">
+                      <i class="fa fa-ellipsis-h"
+                      aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row job-description">
+                <div class="col-md-2 job-description-icons">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 posted-by">
+                    <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                  <div class="row "> 
+                      <div class="col-md-2">
+                          <img class="img1" src="p0.jpg">
+                      </div>
+                      <div class="col-md-10 contact ">
+                          <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                          <span>sarahkleiz@gmail.com</span>    
+                      </div>                  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="gray">Seniority Level: </span>Internship</p>
+                    <p><span class="gray">Industry: </span>IT Services</p>
+                    <p><span class="gray">Employment Type: </span>Full-time</p>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                  <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+          </li>
+          <li class="li-middle1">
+              <div class="row">
+                  <div class="col-md-1">
+                      <img class="circle-btn3" src="google.jpg">
+                  </div>
+                  <div class="col-md-10">
+                      <div class="job-title">
+                      <p>User Experience Design Interns- summer 2019</p>
+                      <span class="blue"><b>Google -</b></span><span>Sydney AU</span>
+                    </div>
+                  </div>
+                  <div class="col-md-1 btn-ellipsis">
+                      <i class="fa fa-ellipsis-h"
+                      aria-hidden="true"></i>
+                  </div>
+              </div>
+              <div class="row job-description">
+                <div class="col-md-2 job-description-icons">
+                    <i class="fa fa-file" aria-hidden="true"></i>
+                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 posted-by">
+                    <p class="gray">Posted 6 Days ago-68 applicants</p>  
+                  <div class="row "> 
+                      <div class="col-md-2">
+                          <img class="img1" src="p0.jpg">
+                      </div>
+                      <div class="col-md-10 contact ">
+                          <span >Contact: <span class="blue">Sarah Kleinz </span> </span>
+                          <span>sarahkleiz@gmail.com</span>    
+                      </div>                  
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="gray">Seniority Level: </span>Internship</p>
+                    <p><span class="gray">Industry: </span>IT Services</p>
+                    <p><span class="gray">Employment Type: </span>Full-time</p>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-save">Save <i class="fa fa-bookmark-o" aria-hidden="true"></i></button>
+                  <button class="btn btn-apply">Apply<i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+                </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4  right-column">
+        <div class="right-div">
+          <img class="image1" src="google.jpg">
+          <h3>User Experience Design <br>Interns- summer 2019</h3>
+          <span class="blue">Google-</span><span>Sydney Austrelia</span>
+        </div>
+        <div class="row qualification">
+          <div class="col-md-7 ">
+            <p class="under-heading">Minimum Qualification</p>
+            <div>
+              <ul class="right-ul gray">
+                <li>
+                  Lorem Ipsum is simply dummy
+                  Lorem Ipsum 
+                </li>
+                <li>
+                  Lorem Ipsum is simply dummy
+                  Lorem Ipsum 
+                </li>
+                <li>
+                  Lorem Ipsum is simply dummy
+                  Lorem Ipsum 
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5 ">
+            <span><b>Seniority Level</b></span><br>
+            <span>Internship</span>
+            <br>
+            <span><b>Industry</b></span><br>
+            <span>IT,services</span>
+            <br>
+            <span><b>Employment Type</b></span><br>
+            <span>Full-time</span>
+            <br>
+            <span><b>Job Function</b></span><br>
+            <span>Other</span>
+            <br>
+
+          </div>
+        </div>
+        <div class="row qualification">
+        <p class="under-heading1">Preferred Qualification</p>
+        <ul class="right-ul1 gray">
+          <li>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+          </li>
+          <li>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+          </li>
+          <li>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+          </li>
+        </ul>
+      </div>
+      <div class="row about-job">
+        <p class="under-heading2">About Job</p>
+        <p class="gray about-job-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.
+        </p>
+      <p class="blue read-more">Read more</p>
+
+      </div>
+      <button class="save-btn">Save Job</button><button class="apply-btn">Apply Now</button>
+      </div>
+    </div>
+    <footer class="page-footer footer">
+
+        <ul class="footer-ul">
+          <li>
+            Hiring Lab
+          </li>
+          <li>
+            Career Advise
+            </li>
+            <li>
+               Browse Job
+              </li>
+              <li>
+                  Browse Companies
+                </li>
+                <li>
+                    Salaries
+                  </li>
+                  <li>
+                     Work at Jobeye
+                    </li>
+                    <li>
+                        About
+                      </li>
+                      <li>
+                          Help Center
+                        </li>
+        </ul>
+        
+      
+      </footer>
+  </div>
+
+</body>
+
+</html>
